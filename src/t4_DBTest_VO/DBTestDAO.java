@@ -14,7 +14,7 @@ public class DBTestDAO {
 	
 	String sql = "";
 	
-	//처음 DAO(다오) 생성시에 Database 연결한다..
+	//처음 DAO(다오) 생성시에 Database 연결한다...
 	public DBTestDAO() {
 		try {
 			Class.forName("com.mysql.jdbc.Driver");
