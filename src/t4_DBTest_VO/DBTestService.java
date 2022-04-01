@@ -47,7 +47,6 @@ public class DBTestService {
 				System.out.println();
 			}
 			System.out.print("계속 개별조회 하시겠습니까?(y/n) =>");
-			System.out.println();
 			ans = sc.next();
 			if(ans.toLowerCase().equals("y")) {
 				continue;
