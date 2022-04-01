@@ -1,4 +1,4 @@
-package Swing;
+package SwingProject;
 
 import java.awt.EventQueue;
 
@@ -22,7 +22,7 @@ import javax.swing.JButton;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
 
-public class BooksManage {
+public class NuriBooksManage {
 
 	private JFrame frmJs;
 	private JTextField textField_4;
@@ -84,7 +84,7 @@ public class BooksManage {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
-					BooksManage window = new BooksManage();
+					NuriBooksManage window = new NuriBooksManage();
 					window.frmJs.setVisible(true);
 				} catch (Exception e) {
 					e.printStackTrace();
@@ -96,7 +96,7 @@ public class BooksManage {
 	/**
 	 * Create the application.
 	 */
-	public BooksManage() {
+	public NuriBooksManage() {
 		initialize();
 	}
 

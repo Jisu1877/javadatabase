@@ -1,4 +1,4 @@
-package Swing;
+package SwingProject;
 
 import java.awt.EventQueue;
 
@@ -15,7 +15,7 @@ import java.awt.Color;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
 
-public class Home {
+public class NuriHome2 {
 
 	private JFrame frmJsHome;
 
@@ -26,7 +26,7 @@ public class Home {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
-					Home window = new Home();
+					NuriHome2 window = new NuriHome2();
 					window.frmJsHome.setVisible(true);
 				} catch (Exception e) {
 					e.printStackTrace();
@@ -38,7 +38,7 @@ public class Home {
 	/**
 	 * Create the application.
 	 */
-	public Home() {
+	public NuriHome2() {
 		initialize();
 	}
 
@@ -47,7 +47,6 @@ public class Home {
 	 */
 	private void initialize() {
 		frmJsHome = new JFrame();
-		frmJsHome.setResizable(false);
 		frmJsHome.getContentPane().setBackground(SystemColor.control);
 		frmJsHome.getContentPane().setLayout(null);
 		
@@ -63,7 +62,7 @@ public class Home {
 		frmJsHome.getContentPane().add(lblNewLabel_1);
 		
 		JPanel panel = new JPanel();
-		panel.setBackground(SystemColor.inactiveCaptionBorder);
+		panel.setBackground(SystemColor.control);
 		panel.setBounds(87, 246, 171, 184);
 		frmJsHome.getContentPane().add(panel);
 		panel.setLayout(null);
@@ -87,7 +86,7 @@ public class Home {
 		panel.add(btnBorrow);
 		
 		JPanel panel_1 = new JPanel();
-		panel_1.setBackground(SystemColor.inactiveCaptionBorder);
+		panel_1.setBackground(SystemColor.control);
 		panel_1.setBounds(295, 246, 171, 184);
 		frmJsHome.getContentPane().add(panel_1);
 		panel_1.setLayout(null);

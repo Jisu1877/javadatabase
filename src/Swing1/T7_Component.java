@@ -15,9 +15,8 @@ public class T7_Component extends JFrame {
 		setLocationRelativeTo(null);
 		setResizable(false);
 		
-		setVisible(true);
-		
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		setVisible(true);
 		 */
 		
 		
